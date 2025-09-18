@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TanStack Start is a modern full-stack React framework that builds on top of TanStack Router to provide a complete development solution. Unlike traditional frameworks, it takes a **client-first approach** while offering robust server-side capabilities, powered by Vite for lightning-fast development.
+TanStack Start is a full-stack React framework built on TanStack Router, with a client-first approach and fast Vite-powered development.
 
 **Key Philosophy:**
 - **Type-safe everything** - From routing to server functions, full TypeScript coverage
@@ -10,7 +10,7 @@ TanStack Start is a modern full-stack React framework that builds on top of TanS
 - **Vite-powered** - Instant HMR and blazing fast builds
 - **Framework-agnostic server functions** - Not tied to React Server Components
 
-This README explores TanStack Start's unique features through real code examples from our demo projects (`start/` and `start2/`), comparing them with Next.js to help you understand when to choose each framework.
+See real code examples from demo projects (`start/` and `start2/`) showing TanStack Start's features, with direct comparisons to Next.js.
 
 ## 🔹 Routing (TanStack Router)
 
