@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TanStack Start is a full-stack React framework built on TanStack Router, with a client-first approach and fast Vite-powered development.
+TanStack Start is a router-first, type-safe framework built on Vite, offering full-document SSR/streaming as a simpler alternative to RSC.
 
 **Key Philosophy:**
 - **Type-safe everything** - From routing to server functions, full TypeScript coverage
@@ -136,7 +136,7 @@ Unlike plain Next.js links, TanStack Start prefetches both route AND data when y
 ```
 
 ### TanStack Query Integration (Optional)
-While these projects don't use it, TanStack Start **can** work with TanStack Query for client-side caching, but it's not required since server functions + route loaders provide similar benefits.
+TanStack Query is not required since route loaders + server functions solve most use cases. However, Query is still recommended for advanced caching scenarios and client-side interactivity (e.g., optimistic mutations, background refetch).
 
 ---
 
@@ -249,6 +249,8 @@ export const ServerRoute = createServerFileRoute('/api/demo-names').methods({
   },
 })
 ```
+
+⚠️ **Note:** `createServerFileRoute` is still experimental functionality and not as battle-tested as Next.js API routes.
 
 ---
 
